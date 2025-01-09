@@ -1,6 +1,6 @@
 name: Publish to Cloudflare Pages
 
-on: 
+on:
   push:
   workflow_dispatch:
   schedule:
@@ -46,9 +46,9 @@ jobs:
           command: pages deploy out --project-name blog
       - name: Notify Discord
         run: |
-            curl -H "Content-Type: application/json" \
-            -X POST \
-            -d '{
-              "content": "デプロイ完了！ https://blog.technotut.net/"
-            }' \
-            ${{ secrets.DISCORD_WEBHOOK_URL }}
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d '{
+            "content": "Deployed https://blog.shibaura-hac.net/"
+          }' \
+          ${{ secrets.DISCORD_WEBHOOK_URL }}

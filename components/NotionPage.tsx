@@ -299,7 +299,7 @@ export function NotionPage({
         pageAside={pageAside}
       />
 
-      <NotionPageFooter indexPageUrl='https://blog.technotut.net/' />
+      <NotionPageFooter indexPageUrl='https://blog.shibaura-hac.net/' />
       {/* 本文とフッターの間にカスタムエリアを配置 */}
       <TweetButtonArea title={title} author={author} />
       {/* フッターはカスタムエリアの後に配置 */}

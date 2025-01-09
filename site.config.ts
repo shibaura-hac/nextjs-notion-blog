@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'TechnoTUT Blog',
-  domain: 'blog.technotut.net',
+  domain: 'blog.shibaura-hac.net',
   author: 'TechnoTUT',
 
   // open graph metadata (optional)
