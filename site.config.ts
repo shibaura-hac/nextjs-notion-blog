@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'dd5bc6ac79e042d0b50292564a565575',
+  rootNotionPageId: 'SHAC-Blog-1767ef8a65ff806289dec0a57f1794c3',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'SHAC',
 
   // open graph metadata (optional)
-  description: 'Next.js Notion Blog',
+  description: '芝浦工業大学文化会無線研究部のブログです。',
 
   // social usernames (optional)
   twitter: 'ja1yxp',
@@ -49,7 +49,7 @@ export default siteConfig({
   pageUrlOverrides: null,
 
   //検索バーの無効化
-  isSearchEnabled: false,
+  // isSearchEnabled: true,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
