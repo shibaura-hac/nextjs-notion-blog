@@ -9,16 +9,16 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'TechnoTUT Blog',
+  name: 'SHAC Blog',
   domain: 'blog.shibaura-hac.net',
-  author: 'TechnoTUT',
+  author: 'SHAC',
 
   // open graph metadata (optional)
   description: 'Next.js Notion Blog',
 
   // social usernames (optional)
-  twitter: 'toyohashitechno',
-  github: 'technotut',
+  twitter: 'ja1yxp',
+  github: 'shibaura-hac',
   //linkedin: '#',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL

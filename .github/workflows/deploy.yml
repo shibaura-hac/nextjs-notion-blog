@@ -9,7 +9,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    if: github.repository == 'technotut/nextjs-notion-blog'
+    if: github.repository == 'shibaura-hac/nextjs-notion-blog'
     permissions:
       contents: read
       deployments: write
