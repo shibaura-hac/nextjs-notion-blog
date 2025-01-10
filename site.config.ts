@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'SHAC Blog',
   domain: 'blog.shibaura-hac.net',
-  author: 'SHAC',
+  author: 'Shibaura Amateur Radio  Club',
 
   // open graph metadata (optional)
   description: '芝浦工業大学文化会無線研究部のブログです。',

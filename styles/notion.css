@@ -80,6 +80,7 @@
 .notion-collection-card {
   border-radius: 16px;
   box-shadow: none;
+  padding: 20px;
 }
 
 .notion-collection-card-cover img {
@@ -400,6 +401,6 @@
   color: var(--fg-color-2);
 }
 
-.notion-equation.notion-equation-block{
+.notion-equation.notion-equation-block {
   align-items: center;
 }
